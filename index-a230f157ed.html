@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爪爪守护计划 - 福理工暖冬行动</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="paw-icon">🐾</span>
+                <span class="brand-text">爪爪守护计划</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#teams">组织架构</a></li>
+                <li><a href="#progress">行动进展</a></li>
+                <li><a href="#gallery">温馨瞬间</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <button class="cta-button" onclick="scrollToSection('donate')">加入我们</button>
+        </div>
+    </nav>
+
+    <!-- 主视觉区 -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">关爱生命，温暖校园</h1>
+                <p class="hero-subtitle">爪爪守护计划 - 福理工暖冬行动</p>
+                <p class="hero-description">为校园流浪动物提供温暖的家，让爱心在冬日传递</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('donate')">立即参与</button>
+                    <button class="btn-secondary" onclick="scrollToSection('about')">了解更多</button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">温暖小屋</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">职能小组</div>
+                </div>
+                <div class="stat-item"> 
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">爱心传递</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于项目 -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于爪爪守护计划</h2>
+                <p class="section-subtitle">用行动诠释关爱，用温暖守护生命</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🌟</div>
+                    <h3 class="card-title">项目背景</h3>
+                    <p class="card-content">随着冬天天气变冷，校园内的流浪动物面临寒冷、饥饿、疾病等生存困境。我们作为校园的一份子，有责任和义务为这些小生命提供帮助。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3 class="card-title">项目目标</h3>
+                    <p class="card-content">营造温暖、有爱的校园环境，增强同学们的爱心意识与社会责任感，建立校园流浪动物的长效保护机制。</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">💡</div>
+                    <h3 class="card-title">核心理念</h3>
+                    <p class="card-content">以"关爱生命，温暖校园"为活动主线，通过有计划、有组织的救助行动，培养学生尊重生命、关爱生命的意识。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 组织架构 -->
+    <section id="teams" class="teams-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">爪爪守护者联盟</h2>
+                <p class="section-subtitle">四大职能组，分工协作，专业守护</p>
+            </div>
+            <div class="teams-grid">
+                <div class="team-card logistics">
+                    <div class="team-icon">🏠</div>
+                    <h3 class="team-name">后勤组</h3>
+                    <p class="team-description">在宿舍楼下、食堂周边等流浪动物出没地安置温暖小屋，管理物资采购与更换，确保小动物们有温暖的栖息地。</p>
+                    <div class="team-responsibilities">
+                        <span>搭建小屋</span>
+                        <span>物资管理</span>
+                        <span>定期维护</span>
+                    </div>
+                </div>
+                <div class="team-card feeding">
+                    <div class="team-icon">🍽️</div>
+                    <h3 class="team-name">投喂组</h3>
+                    <p class="team-description">在小屋旁设立固定投喂点，安排成员进行每日的食盆清洁和定时定点投喂，确保流浪动物的饮食健康。</p>
+                    <div class="team-responsibilities">
+                        <span>定时投喂</span>
+                        <span>食盆清洁</span>
+                        <span>营养搭配</span>
+                    </div>
+                </div>
+                <div class="team-card medical">
+                    <div class="team-icon">🏥</div>
+                    <h3 class="team-name">医疗组</h3>
+                    <p class="team-description">建立《福理工爪爪动物档案》，为每只流浪猫狗佩戴项圈，记录基本信息，进行定期驱虫、外伤处理等护理工作。</p>
+                    <div class="team-responsibilities">
+                        <span>健康档案</span>
+                        <span>医疗护理</span>
+                        <span>疾病预防</span>
+                    </div>
+                </div>
+                <div class="team-card publicity">
+                    <div class="team-icon">📢</div>
+                    <h3 class="team-name">宣传组</h3>
+                    <p class="team-description">举办主题预热活动，设立"爱心物资区"捐献箱，运营校园救助账号，设置"云投喂"入口，传播爱心理念。</p>
+                    <div class="team-responsibilities">
+                        <span>活动宣传</span>
+                        <span>物资募集</span>
+                        <span>媒体运营</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 行动进展 -->
+    <section id="progress" class="progress-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">行动进展</h2>
+                <p class="section-subtitle">见证每一份爱心的传递</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年11月-12月</div>
+                        <h3 class="timeline-title">筹备阶段</h3>
+                        <p class="timeline-description">招募同学组建团队、调研校园流浪动物出没地点、进行活动宣传和物质筹集</p>
+                        <div class="timeline-status status-completed">已完成</div>
+                    </div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年1月-3月</div>
+                        <h3 class="timeline-title">执行阶段</h3>
+                        <p class="timeline-description">开展投喂、医疗、搭建、宣传校内流浪动物暖冬行动救助活动</p>
+                        <div class="timeline-status status-ongoing">进行中</div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2026年4月-6月</div>
+                        <h3 class="timeline-title">总结阶段</h3>
+                        <p class="timeline-description">总结经验、推广典型做法、复盘并准备结项报告</p>
+                        <div class="timeline-status status-upcoming">待开始</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 成果展示 -->
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <div class="achievement-icon">🏠</div>
+                    <div class="achievement-number">10+</div>
+                    <div class="achievement-label">温暖小屋安置</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">🐱</div>
+                    <div class="achievement-number">20+</div>
+                    <div class="achievement-label">流浪动物档案</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">👥</div>
+                    <div class="achievement-number">50+</div>
+                    <div class="achievement-label">志愿者参与</div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">❤️</div>
+                    <div class="achievement-number">∞</div>
+                    <div class="achievement-label">爱心传递</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 温馨瞬间 -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">温馨瞬间</h2>
+                <p class="section-subtitle">记录每一个温暖的故事</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🐱</span>
+                    </div>
+                    <div class="gallery-caption">小猫咪在新家里</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🏠</span>
+                    </div>
+                    <div class="gallery-caption">温暖小屋搭建中</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">👥</span>
+                    </div>
+                    <div class="gallery-caption">志愿者团队合影</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">🍽️</span>
+                    </div>
+                    <div class="gallery-caption">定时投喂时刻</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">📦</span>
+                    </div>
+                    <div class="gallery-caption">爱心物资捐赠</div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span class="placeholder-icon">💊</span>
+                    </div>
+                    <div class="gallery-caption">医疗组护理中</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 参与我们 -->
+    <section id="donate" class="donate-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">加入我们</h2>
+                <p class="section-subtitle">让爱心传递，温暖整个校园</p>
+            </div>
+            <div class="donate-grid">
+                <div class="donate-card">
+                    <div class="donate-icon">🤝</div>
+                    <h3 class="donate-title">志愿者报名</h3>
+                    <p class="donate-description">加入爪爪守护者联盟，用行动温暖校园</p>
+                    <button class="donate-btn" onclick="showModal('volunteer')">立即报名</button>
+                </div>
+                <div class="donate-card">
+                    <div class="donate-icon">🎁</div>
+                    <h3 class="donate-title">物资捐赠</h3>
+                    <p class="donate-description">捐赠旧毛毯、猫粮狗粮等物资，让小动物温暖过冬</p>
+                    <button class="donate-btn" onclick="showModal('material')">查看捐赠点</button>
+                </div>
+                <div class="donate-card">
+                    <div class="donate-icon">💳</div>
+                    <h3 class="donate-title">云投喂</h3>
+                    <p class="donate-description">线上捐赠动物口粮，实时显示捐献额度与用途</p>
+                    <button class="donate-btn" onclick="showModal('cloud')">开始云投喂</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我们</h2>
+                <p class="section-subtitle">期待您的参与和支持</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">👤</div>
+                        <div class="contact-details">
+                            <h4>项目负责人</h4>
+                            <p>姚昕桐</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>联系电话</h4>
+                            <p>13305987897</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🏫</div>
+                        <div class="contact-details">
+                            <h4>所属学校</h4>
+                            <p>福州理工学院</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📅</div>
+                        <div class="contact-details">
+                            <h4>项目周期</h4>
+                            <p>2025年11月 — 2026年6月</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>留言反馈</h3>
+                    <form id="feedbackForm" onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" placeholder="请输入您的姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">联系方式</label>
+                            <input type="text" id="contact" name="contact" placeholder="请输入您的联系方式" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">留言内容</label>
+                            <textarea id="message" name="message" rows="5" placeholder="请输入您的留言或建议" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">提交留言</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <span class="paw-icon">🐾</span>
+                        <span class="brand-text">爪爪守护计划</span>
+                    </div>
+                    <p class="footer-description">关爱生命，温暖校园 - 福理工暖冬行动</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">关于我们</a></li>
+                        <li><a href="#teams">组织架构</a></li>
+                        <li><a href="#progress">行动进展</a></li>
+                        <li><a href="#donate">加入我们</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <ul class="footer-links">
+                        <li>📞 13305987897</li>
+                        <li>🏫 福州理工学院</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025-2026 爪爪守护计划 - 福理工暖冬行动 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 模态框 -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
